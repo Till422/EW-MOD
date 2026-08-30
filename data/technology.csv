@@ -1,0 +1,7 @@
+technology,dispatchable,renewable,variable_cost,fixed_cost,max_capacity,eff,inv_power,inv_storage,lifetime,emission_factor,fuel_cost
+pp1,1,0,5,35,-1,0.42,2000,-1,40,399,6
+pp2,1,0,2,20,-1,0.58,800,-1,40,201,30
+battery,1,0,1,2,-1,0.95,145,245,12,0,0
+pv,0,1,0,1,4.05,1,300,-1,25,0,0
+wind,0,1,0,5,4.5,1,1200,-1,25,0,0
+hydro,1,1,0,10,2.3585,1,2000,245,30,0,0
