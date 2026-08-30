@@ -57,9 +57,3 @@ include("05-invest01.jl")
 
 Ergebnisse: `objective_value(m)`, `value.(m[:POWER])`, `value.(m[:STORAGE])`, `sum(value.(m[:BUY]))`. Die Auswertung öffnet ein Fenster mit Schieberegler zwischen den Szenarien — braucht GLMakie und OpenGL, sonst `CairoMakie`.
 
-## Bekannte Einschränkungen
-
-- **Speicherinvestitionskosten.** `invest_cost_storage` greift auf `inv_power` statt `inv_storage` zu; das Volumen wird mit dem Leistungspreis bewertet (Wasserstoff 245 statt 145 €/kWh), womit sich das Kostenverhältnis Batterie/Wasserstoff umkehrt. Betrifft beide Skripte.
-- **Wirkungsgrad.** `StorageBalance` setzt ihn beim Laden und beim Entladen an — effektiv `eff²`, bei der Batterie 0,90 statt 0,95.
-- **Fester Pfad.** `strompreis_scen.jl` enthält ein `cd()` auf ein absolutes Verzeichnis, das anderswo entfernt werden muss.
-- **Szenarienauswahl.** Preisszenarien und Datenquellen werden über auskommentierte Zeilen umgeschaltet.
