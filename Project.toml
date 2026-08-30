@@ -1,0 +1,9 @@
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+Clp = "e2554f3b-3117-50c0-817c-e040a3ddf72d"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataFramesMeta = "1313f7d8-7da2-5740-9ea0-a2ca25f37964"
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+GLPK = "60bf3e95-4087-53dc-ae20-288a0d20c6a6"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+RollingFunctions = "b0e4dd01-7b14-53d8-9b45-175a3e362653"
