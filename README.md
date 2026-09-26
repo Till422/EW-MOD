@@ -1,4 +1,4 @@
-#Energieversorgung einer wasserstoffbetriebenen Zugstrecke
+# Energieversorgung einer wasserstoffbetriebenen Zugstrecke
 
 Lineares Programm in Julia ([JuMP](https://jump.dev), GLPK) für die kostenminimale Kombination aus Photovoltaik, Windkraft, Batteriespeicher und Wasserstoffpfad zur Deckung des Fahrstroms einer Regionalbahnstrecke — gleichzeitig **Ausbau** und **Einsatz**: ein größerer Speicher erlaubt kleinere Erzeuger und umgekehrt. Wetterzeitreihen von [Renewables.ninja](https://www.renewables.ninja), **52,730 N / 13,008 O** — Basdorf bei Bernau an der Heidekrautbahn (MERRA-2, 2019, stündlich).
 
